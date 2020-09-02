@@ -234,6 +234,7 @@ class Play():
 
 """ initializes graphical user interface """
 root = tk.Tk()
+root.configure(highlightbackground = "black", highlightthickness = 1, bd = 1, relief = "solid")
 root.title("Quote Trivia")
 root.option_add("*fonts", "Helvetica")
 root.geometry("300x500")
