@@ -163,7 +163,7 @@ class Play():
 		box and submission button """
 
 		#display quote
-		self.quote_label = tk.Label(root, text = "Quote: " + self.game.get_new_quote(), wraplength=275)
+		self.quote_label = tk.Label(root, text = "Quote: " + self.game.get_new_quote(), wraplength=340)
 		self.quote_label.pack()
 
 		#user input box
@@ -237,7 +237,7 @@ root = tk.Tk()
 root.configure(highlightbackground = "black", highlightthickness = 1, bd = 1, relief = "solid")
 root.title("Quote Trivia")
 root.option_add("*fonts", "Helvetica")
-root.geometry("300x500")
+root.geometry("375x500")
 
 frame = tk.Frame(root)
 frame.config(highlightbackground = "black", highlightthickness = 1, bd = 1, relief = "solid")
